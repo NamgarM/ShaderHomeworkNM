@@ -1,4 +1,4 @@
-﻿Shader "Tutorial/TextureTest_NM"
+﻿Shader "Study/TextureTest_NM"
 {
     Properties
     {
