@@ -22,10 +22,8 @@
             #include "UnityCG.cginc"
 
             float4 _TopColor;
-            //float4 _MiddleColor;
             float4 _LiquidColor;
             float _LiquidAmount;
-            //float _MidColAmount;
 
             struct appdata
             {

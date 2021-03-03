@@ -58,7 +58,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _LiquidAmount: 1
+    - _LiquidAmount: 0
     - _Metallic: 0
     - _MidColAmount: 0.2
     - _OcclusionStrength: 1
@@ -76,12 +76,12 @@ Material:
     - _Color: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _LiquidAmount: {r: 0, g: 0, b: 0, a: 0}
-    - _LiquidColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LiquidColor: {r: 0.9622642, g: 0.24873616, b: 0.5755049, a: 1}
     - _MiddleColor: {r: 1, g: 0.99433964, b: 0.99433964, a: 1}
     - _PlaneNormal: {r: 0, g: 1, b: 0, a: 0}
     - _PlanePosition: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TopColor: {r: 0, g: 1, b: 1, a: 1}
+    - _TopColor: {r: 1, g: 0.48490566, b: 0.765513, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6323517564813323346
 MonoBehaviour:
