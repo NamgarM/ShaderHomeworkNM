@@ -54,15 +54,15 @@
                 float2 uv = i.uv;
                 // Make it polar
                 float2 polar = i.uv;
-                float angle = atan2(polar.y, polar.x);
-                uv = float2(length(polar), (angle / 0.6366)); // PI/2
+                float angle = atan2(uv.y, uv.x);
+                polar = float2(length(polar), (angle / 0.6366)); // PI/2
                 float time = saturate(sin(_Time.y));
                 // Go from uv-coordinates to polar coordinates (it will give an effect of moving in circle)
                 
-                uv = lerp(i.uv, uv, time);
+                polar = lerp(i.uv, polar, time);
                 float offset = _Time.x * 0.0005; // _FadingSpeed
                 //uv += float2(offset, offset);
-                fixed4 col = tex2D(_MainTex, uv);
+                fixed4 col = tex2D(_MainTex, polar);
                 return col;//float4(uv, 0, 1); // colors on object */
             }
             ENDCG
